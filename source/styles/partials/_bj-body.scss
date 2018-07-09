@@ -1,0 +1,128 @@
+/* # bj-body-left
+ * ---------------------------------------------------------------------------------------------------- */
+
+/**
+ * @tab Body
+ * @section body text
+ * @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+ * @theme main
+ */
+.bodyContentLeft {
+  /*@editable*/ color: #505050;
+  /*@editable*/ font-family: Helvetica;
+  /*@editable*/ font-size: 16px;
+  /*@editable*/ line-height: 150%;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  /*@editable*/ text-align: left;
+  h1, h2, h3, h4, h5, h6, p {
+    text-align: left;
+  }
+}
+
+/**
+* @tab Body
+* @section body link
+* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+*/
+.bodyContentLeft a:link,
+.bodyContentLeft a:visited, /* Yahoo! Mail Override */
+.bodyContentLeft a .yshortcuts /* Yahoo! Mail Override */ {
+  /*@editable*/ color: #EB4102;
+  /*@editable*/ font-weight: normal;
+  /*@editable*/ text-decoration: underline;
+}
+
+.bodyContentLeft img {
+  display: inline;
+  height: auto;
+  max-width: 560px;
+}
+
+/* # bj-body-center
+ * ---------------------------------------------------------------------------------------------------- */
+
+/**
+ * @tab Body
+ * @section body text
+ * @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+ * @theme main
+ */
+.bodyContentCenter {
+  /*@editable*/ color: #505050;
+  /*@editable*/ font-family: Helvetica;
+  /*@editable*/ font-size: 16px;
+  /*@editable*/ line-height: 150%;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  /*@editable*/ text-align: center;
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+}
+
+/**
+* @tab Body
+* @section body link
+* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+*/
+.bodyContentCenter a:link,
+.bodyContentCenter a:visited, /* Yahoo! Mail Override */
+.bodyContentCenter a .yshortcuts /* Yahoo! Mail Override */ {
+  /*@editable*/ color: #EB4102;
+  /*@editable*/ font-weight: normal;
+  /*@editable*/ text-decoration: underline;
+}
+
+.bodyContentCenter img {
+  display: inline;
+  height: auto;
+  max-width: 560px;
+}
+
+/* # bj-body-right
+ * ---------------------------------------------------------------------------------------------------- */
+
+/**
+ * @tab Body
+ * @section body text
+ * @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+ * @theme main
+ */
+.bodyContentRight {
+  /*@editable*/ color: #505050;
+  /*@editable*/ font-family: Helvetica;
+  /*@editable*/ font-size: 16px;
+  /*@editable*/ line-height: 150%;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  /*@editable*/ text-align: right;
+  h1, h2, h3, h4, h5, h6, p {
+    text-align: right;
+  }
+}
+
+/**
+* @tab Body
+* @section body link
+* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+*/
+.bodyContentRight a:link,
+.bodyContentRight a:visited, /* Yahoo! Mail Override */
+.bodyContentRight a .yshortcuts /* Yahoo! Mail Override */ {
+  /*@editable*/ color: #EB4102;
+  /*@editable*/ font-weight: normal;
+  /*@editable*/ text-decoration: underline;
+}
+
+.bodyContentRight img {
+  display: inline;
+  height: auto;
+  max-width: 560px;
+}

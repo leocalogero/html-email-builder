@@ -1,0 +1,51 @@
+/* # Header
+ * ---------------------------------------------------------------------------------------------------- */
+
+/**
+ * @tab Header
+ * @section header style
+ * @tip Set the background color and borders for your email's header area.
+ * @theme header
+ */
+#templateHero {
+  /*@editable*/ background-color: #F4F4F4;
+  /*@editable*/ border-top: 1px solid #FFFFFF;
+  /*@editable*/ border-bottom: 1px solid #CCCCCC;
+}
+
+/**
+ * @tab Header
+ * @section header text
+ * @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+ */
+.heroContent {
+  /*@editable*/ color: #505050;
+  /*@editable*/ font-family: Helvetica;
+  /*@editable*/ font-size: 20px;
+  /*@editable*/ font-weight: bold;
+  /*@editable*/ line-height: 100%;
+  /*@editable*/ padding-top: 0;
+  /*@editable*/ padding-right: 0;
+  /*@editable*/ padding-bottom: 0;
+  /*@editable*/ padding-left: 0;
+  /*@editable*/ text-align: left;
+  /*@editable*/ vertical-align: middle;
+}
+
+/**
+ * @tab Header
+ * @section header link
+ * @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+ */
+.heroContent a:link,
+.heroContent a:visited, /* Yahoo! Mail Override */
+.heroContent a .yshortcuts /* Yahoo! Mail Override */ {
+  /*@editable*/ color: #EB4102;
+  /*@editable*/ font-weight: normal;
+  /*@editable*/ text-decoration: underline;
+}
+
+#heroImage {
+  height: auto;
+  max-width: 600px;
+}

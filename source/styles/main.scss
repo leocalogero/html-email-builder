@@ -1,0 +1,41 @@
+/**
+* Email Blueprints By MailChimp (https://github.com/mailchimp/Email-Blueprints)
+* Creative Commons Attribution-ShareAlike 3.0 Unported License (http://creativecommons.org/licenses/by-sa/3.0/)
+*
+* HTML and CSS seperated into modules by Kevin To (http://kevinto.me)
+*/
+
+@import 'partials/variables';
+@import 'partials/client-specific';
+@import 'partials/reset';
+@import 'partials/page';
+@import 'partials/header';
+@import 'partials/body';
+@import 'partials/column';
+@import 'partials/footer';
+
+//blackjet
+
+@import 'partials/bj-preheader';
+@import 'partials/bj-hero';
+@import 'partials/bj-body';
+@import 'partials/bj-column-v2';
+@import 'partials/bj-prefooter';
+@import 'partials/bj-prefooter-v2';
+@import 'partials/bj-prefooter-v3';
+@import 'partials/bj-prefooter-v4';
+
+//blackjet-responsive
+
+@import 'partials/hero-responsive';
+@import 'partials/bj-body-responsive';
+
+//responsive
+
+@import 'partials/client-specific-responsive';
+@import 'partials/reset-responsive';
+@import 'partials/page-responsive';
+@import 'partials/header-responsive';
+@import 'partials/body-responsive';
+@import 'partials/column-responsive';
+@import 'partials/footer-responsive';

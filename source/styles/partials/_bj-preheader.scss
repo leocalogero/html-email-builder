@@ -1,0 +1,86 @@
+/* # bj-preheader-left
+ * ---------------------------------------------------------------------------------------------------- */
+
+/**
+ * @tab Header
+ * @section preheader text
+ * @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+ */
+.preheaderContentLeft {
+  /*@editable*/ color: #808080;
+  /*@editable*/ font-family: Helvetica;
+  /*@editable*/ font-size: 10px;
+  /*@editable*/ line-height: 125%;
+  /*@editable*/ text-align: left;
+}
+
+/**
+ * @tab Header
+ * @section preheader link
+ * @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+ */
+.preheaderContentLeft a:link,
+.preheaderContentLeft a:visited, /* Yahoo! Mail Override */
+.preheaderContentLeft a .yshortcuts /* Yahoo! Mail Override */ {
+  /*@editable*/ color: #606060;
+  /*@editable*/ font-weight: normal;
+  /*@editable*/ text-decoration: underline;
+}
+
+/* # bj-preheader-center
+ * ---------------------------------------------------------------------------------------------------- */
+
+/**
+ * @tab Header
+ * @section preheader text
+ * @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+ */
+.preheaderContentCenter {
+  /*@editable*/ color: #808080;
+  /*@editable*/ font-family: Helvetica;
+  /*@editable*/ font-size: 10px;
+  /*@editable*/ line-height: 125%;
+  /*@editable*/ text-align: center;
+}
+
+/**
+ * @tab Header
+ * @section preheader link
+ * @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+ */
+.preheaderContentCenter a:link,
+.preheaderContentCenter a:visited, /* Yahoo! Mail Override */
+.preheaderContentCenter a .yshortcuts /* Yahoo! Mail Override */ {
+  /*@editable*/ color: #606060;
+  /*@editable*/ font-weight: normal;
+  /*@editable*/ text-decoration: underline;
+}
+
+/* # bj-preheader-right
+ * ---------------------------------------------------------------------------------------------------- */
+
+/**
+ * @tab Header
+ * @section preheader text
+ * @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+ */
+.preheaderContentRight {
+  /*@editable*/ color: #808080;
+  /*@editable*/ font-family: Helvetica;
+  /*@editable*/ font-size: 10px;
+  /*@editable*/ line-height: 125%;
+  /*@editable*/ text-align: right;
+}
+
+/**
+ * @tab Header
+ * @section preheader link
+ * @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+ */
+.preheaderContentRight a:link,
+.preheaderContentRight a:visited, /* Yahoo! Mail Override */
+.preheaderContentRight a .yshortcuts /* Yahoo! Mail Override */ {
+  /*@editable*/ color: #606060;
+  /*@editable*/ font-weight: normal;
+  /*@editable*/ text-decoration: underline;
+}

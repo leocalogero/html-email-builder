@@ -1,0 +1,32 @@
+{
+  "name": "modular-email-workflow",
+  "version": "1.0.0",
+  "description": "A simple modular email workflow built with gulp that also supports MailChimp's template styling language",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qkevinto/modular-email-workflow.git"
+  },
+  "keywords": [
+    "email",
+    "modular",
+    "mailchimp"
+  ],
+  "author": "Kevin To",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-html-prettify": "0.0.1",
+    "gulp-inline-css": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^4.0.1",
+    "run-sequence": "^2.2.1"
+  }
+}
