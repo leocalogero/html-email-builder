@@ -82,3 +82,17 @@
   height: auto;
   max-width: 260px;
 }
+
+.rightAlign {
+  text-align: right;
+  h1, h2, h3, h4, h5, h6, p {
+    text-align: right;
+  }
+}
+
+.leftAlign {
+  text-align: left;
+  h1, h2, h3, h4, h5, h6, p {
+    text-align: left;
+  }
+}
